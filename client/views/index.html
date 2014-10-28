@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="nfcom">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title></title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width", initial-scale=1>
+
+		<link rel="stylesheet" type="text/css" href="/css/style.css">
+
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.js"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-resource.js"></script>
+
+		<script type="text/javascript" src="/js/app.js"></script>
+		<script type="text/javascript" src="/js/controllers/menuController.js"></script>
+	
+	</head>
+	<body>
+		<div id="header" ng-controller="menuController">
+			<ul id="menu">
+				<li ng-repeat="item in menuItems">
+					<span ng-if="item.name == selected.name" id="selected">{{item.name}}</span>
+					<span ng-if="item.name != selected.name" id="not-selected" ng-click="changePage(item.name)">{{item.name}}</span>
+				</li>
+			</ul>
+		</div>
+
+		<div id="content">
+
+		</div>
+	</body>
+</html>
