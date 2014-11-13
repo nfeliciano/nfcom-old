@@ -1,13 +1,14 @@
-app.controller('menuController', ['$scope', function($scope) {
+app.controller('menuController', ['$scope', '$location', function($scope, $location) {
 	$scope.menuItems = [
-		{ name: "home" },
-		{ name: "projects" },
-		{ name: "about" }
+		{ name: 'home' },
+		{ name: 'projects' },
+		{ name: 'about' }
 	];
 
-	$scope.selected = $scope.menuItems[0];
+	$scope.selected = $scope.menuItems[0].name;
 
 	$scope.changePage = function(item) {
-		
+		$scope.selected = item;
+		$location.path(item).replace();
 	}
 }]);

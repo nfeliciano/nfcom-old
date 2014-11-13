@@ -9,6 +9,7 @@ app.get('/nfsw', function(req,res) {
 	res.sendFile(__dirname+'/client/views/login.html');
 });
 app.use('/js', express.static(__dirname + '/client/js'));
+app.use('/views', express.static(__dirname + '/client/views'));
 app.use('/css', express.static(__dirname + '/client/css'));
 
 app.listen(3000, function() {
