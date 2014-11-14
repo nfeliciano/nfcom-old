@@ -5,7 +5,9 @@ app.controller('menuController', ['$scope', '$location', function($scope, $locat
 		{ name: 'about' }
 	];
 
-	$scope.selected = $scope.menuItems[0].name;
+	$scope.selected = $location.path().slice(1);
+	if($scope.selected.length <=1) $scope.selected = 'home';
+
 
 	$scope.changePage = function(item) {
 		$scope.selected = item;

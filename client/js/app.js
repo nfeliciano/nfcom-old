@@ -7,8 +7,11 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
             controller : 'homeController'
         })
         .when('/home', {
-            templateUrl : 'views/home.html',
-            controller : 'homeController'
+            redirectTo : '/'
+        })
+        .when('/projects', {
+            templateUrl : 'views/projects.html',
+            controller : 'projectsController'
         })
         .when('/about', {
             templateUrl : 'views/about.html',
