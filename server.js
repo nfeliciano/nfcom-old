@@ -1,5 +1,6 @@
 var express			= require('express'),
 	app				= express();
+	http 			= require('http');
 
 //routes
 app.get('/', function(req,res) {
@@ -12,6 +13,5 @@ app.use('/js', express.static(__dirname + '/client/js'));
 app.use('/views', express.static(__dirname + '/client/views'));
 app.use('/css', express.static(__dirname + '/client/css'));
 
-app.listen(3000, function() {
-	console.log('Listening at port 3000');
-})
+var port = process.env.port || 3000;
+app.listen(port);
