@@ -12,6 +12,7 @@ app.get('/nfsw', function(req,res) {
 app.use('/js', express.static(__dirname + '/client/js'));
 app.use('/views', express.static(__dirname + '/client/views'));
 app.use('/css', express.static(__dirname + '/client/css'));
+app.use('/img', express.static(__dirname + '/client/img'));
 app.use('/node_modules', express.static(__dirname + '/node_modules'));
 
 var port = process.env.port || 9000;

@@ -16,6 +16,7 @@ body {
 	min-height: 100%;
 }
 
+/* menu */
 #header {
 	background-color: #C0C0C0;
 	color: #fff;
@@ -41,4 +42,39 @@ body {
 
 #menu li #selected {
 	font-size:1.4em;
+}
+
+/* common to pages */
+.content {
+    overflow: hidden;
+    margin-left: 10%;
+    max-width: 80%;
+    position: relative;
+}
+
+/* about page */
+#opening {
+    position: relative;
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+#profile {
+
+}
+
+#profile img {
+    max-width: 210px;
+    max-height: 280px;
+    float: left;
+}
+
+#profileIntro {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#profileIntro h1 {
+    font-size: 1.6em;
 }
