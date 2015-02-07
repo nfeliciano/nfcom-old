@@ -16,6 +16,16 @@ body {
 	min-height: 100%;
 }
 
+@font-face {
+    font-family: UbuntuM;
+    src: url(fonts/Ubuntu-M.ttf);
+    font-weight:400;
+}
+
+p, h1, h2, h3 {
+    font-family: UbuntuM, Helvetica, Arial, sans-serif;
+}
+
 /* menu */
 #header {
 	background-color: #fff;
@@ -25,7 +35,7 @@ body {
 }
 
 #menu {
-	text-align: center;
+	text-align: center; <!--HERE -->
 	font-size: 1.2em;
 }
 
@@ -55,9 +65,9 @@ body {
 /* about page */
 #opening {
     position: relative;
-    width: 100%;
+    width: 60%;
+    margin-left: 20%;
     margin-top: 40px;
-    margin-left: 80px;
 }
 
 #profile {
@@ -72,9 +82,19 @@ body {
 
 #profileIntro {
     display: inline-block;
-    margin-left: 10px;
 }
 
 #profileIntro h1 {
-    font-size: 1.6em;
+    margin-left: 25%;
+    font-size: 2.5em;
+}
+
+#profileIntro h2 {
+    margin-left: 25%;
+    font-size: 1.5em;
+}
+
+#profileIntro .bold {
+    font-weight: bold;
+    font-size: 120%;
 }
