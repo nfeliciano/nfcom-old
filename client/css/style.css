@@ -14,6 +14,7 @@ html {
 
 body {
 	min-height: 100%;
+    min-width: 100%;
 }
 
 @font-face {
@@ -22,20 +23,26 @@ body {
     font-weight:400;
 }
 
+@font-face {
+    font-family: HitTheRoad;
+    src: url(fonts/hitroad.ttf);
+    font-weight: 400;
+}
+
 p, h1, h2, h3 {
-    font-family: UbuntuM, Helvetica, Arial, sans-serif;
+    font-family: 'HitTheRoad', Helvetica, Arial, sans-serif;
 }
 
 /* menu */
 #header {
-	background-color: #fff;
-	color: #000
-	width: 100%;
+    background-color: #fff;
+	color: #000;
 	margin-top: 0px;
 }
 
 #menu {
-	text-align: center; <!--HERE -->
+    width: 400px;
+    margin: 0 auto;
 	font-size: 1.2em;
 }
 
@@ -43,7 +50,6 @@ p, h1, h2, h3 {
 	display: inline;
 	white-space: nowrap;
 	margin-left: 3em;
-
 }
 
 #menu li:after {
@@ -57,8 +63,8 @@ p, h1, h2, h3 {
 /* common to pages */
 .content {
     overflow: hidden;
-    margin-left: 10%;
     max-width: 80%;
+    margin: 0 auto;
     position: relative;
 }
 
@@ -66,35 +72,50 @@ p, h1, h2, h3 {
 #opening {
     position: relative;
     width: 60%;
-    margin-left: 20%;
+    margin: 0 auto;
     margin-top: 40px;
 }
 
 #profile {
-
-}
-
-#profile img {
-    max-width: 210px;
-    max-height: 280px;
-    float: left;
 }
 
 #profileIntro {
-    display: inline-block;
+    display: block;
+}
+
+#profileIntro h1, h2 {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
 }
 
 #profileIntro h1 {
-    margin-left: 25%;
     font-size: 2.5em;
 }
 
 #profileIntro h2 {
-    margin-left: 25%;
     font-size: 1.5em;
+}
+
+#profileIntro p {
+    font-size: 1.1em;
 }
 
 #profileIntro .bold {
     font-weight: bold;
     font-size: 120%;
+}
+
+#profilePic {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	background: url(../img/silhouette.jpg) no-repeat;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
