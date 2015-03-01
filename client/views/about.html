@@ -7,11 +7,21 @@
                 <h2>software developist</h2>
                 <hr />
                 <p>
-                    {{ aboutOne }}
+                    {{ intro }}
                 </p>
             </div>
-
             <div id="profilePic"></div>
+            <hr />
+            <div id="profileSkills">
+              <p>
+                {{ skillsIntro }}
+              </p>
+              <ul id="majorSkills">
+                <li ng-repeat="skill in majorSkills">
+                  <span class="bold">{{ skill.name }}</span>: <span>{{ skill.description }}</span>
+                </li>
+              </ul>
+            </div>
         </div>
     </div>
 </div>

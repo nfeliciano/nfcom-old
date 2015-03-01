@@ -9,12 +9,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 html {
-	height: 100%;
+    height: 100%;
 }
 
 body {
 	min-height: 100%;
     min-width: 100%;
+    font-family: sans-serif;
 }
 
 @font-face {
@@ -29,35 +30,36 @@ body {
     font-weight: 400;
 }
 
-p, h1, h2, h3 {
+h1, h2, h3 {
     font-family: 'HitTheRoad', Helvetica, Arial, sans-serif;
 }
 
 /* menu */
 #header {
     background-color: #fff;
-	color: #000;
-	margin-top: 0px;
+  	color: #000;
+  	margin-top: 0px;
 }
 
 #menu {
     width: 400px;
     margin: 0 auto;
-	font-size: 1.2em;
+    font-size: 1.2em;
 }
 
 #menu li {
-	display: inline;
-	white-space: nowrap;
-	margin-left: 3em;
+    font-family: 'HitTheRoad', Helvetica, Arial, sans-serif;
+  	display: inline;
+  	white-space: nowrap;
+  	margin-left: 3em;
 }
 
 #menu li:after {
-	content: none;
+    content: none;
 }
 
 #menu li #selected {
-	font-size:1.4em;
+    font-size:1.4em;
 }
 
 /* common to pages */
@@ -66,6 +68,10 @@ p, h1, h2, h3 {
     max-width: 80%;
     margin: 0 auto;
     position: relative;
+}
+
+.bold {
+    font-family: HitTheRoad;
 }
 
 /* about page */
@@ -111,11 +117,20 @@ p, h1, h2, h3 {
     margin-top: 40px;
     width: 200px;
 	height: 200px;
-	border-radius: 100px;
-	-webkit-border-radius: 100px;
-	-moz-border-radius: 100px;
-	background: url(../img/silhouette.jpg) no-repeat;
+  	border-radius: 100px;
+  	-webkit-border-radius: 100px;
+  	-moz-border-radius: 100px;
+  	background: url(../img/silhouette.jpg) no-repeat;
     box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+#majorSkills {
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+#majorSkills li {
+    margin-top: 10px;
 }
