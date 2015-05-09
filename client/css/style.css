@@ -30,8 +30,43 @@ body {
     font-weight: 400;
 }
 
+@font-face {
+    font-family: Quicksand;
+    src: url(fonts/Quicksand-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: QuicksandBold;
+    src: url(fonts/Quicksand-Bold.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: QuicksandItalic;
+    src: url(fonts/Quicksand-Italic.ttf);
+}
+
+@font-face {
+    font-family: QuicksandLight;
+    src: url(fonts/Quicksand-Light.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: EBGaramond;
+    src: url(fonts/EBGaramond-Regular.ttf);
+}
+
+@font-face {
+    font-family: EBGaramondBold;
+    src: url(fonts/EBGaramond-Bold.ttf);
+}
+
 h1, h2, h3 {
-    font-family: 'HitTheRoad', Helvetica, Arial, sans-serif;
+    font-family: 'QuicksandBold', Helvetica, Arial, sans-serif;
 }
 
 /* menu */
@@ -48,7 +83,7 @@ h1, h2, h3 {
 }
 
 #menu li {
-    font-family: 'HitTheRoad', Helvetica, Arial, sans-serif;
+    font-family: 'QuicksandBold', Helvetica, Arial, sans-serif;
   	display: inline;
   	white-space: nowrap;
   	margin-left: 3em;
@@ -71,7 +106,7 @@ h1, h2, h3 {
 }
 
 .bold {
-    font-family: HitTheRoad;
+    font-family: 'EBGaramondBold';
 }
 
 /* about page */
@@ -83,6 +118,7 @@ h1, h2, h3 {
 }
 
 #profile {
+    font-family: 'EBGaramond', Helvetica, Arial, sans-serif;
 }
 
 #profileIntro {
