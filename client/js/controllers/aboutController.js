@@ -18,6 +18,22 @@ app.controller('aboutController', ['$scope', function($scope) {
         'C'
     ];
 
+    $scope.funFacts = [
+        'I\'ve visited 14 different countries',
+        'I played the Euphonium once upon a time',
+        'Trilingual. Or at least, used to be. Now mostly just bi. Lingual that is',
+        'Philippines -> Indonesia -> Canada. 3 places to call home',
+        'Noel isn\'t my real name',
+        'I\'ll play sport you invite me to play',
+        'I can recite probably 80% of Eminem songs word for word',
+        'I have performed in a play in a swimming pool',
+        'Milk first, cereal second',
+        'I\'m a support main in League of Legends, and will compliment everybody',
+        'I broke my arm falling off monkey bars as a kid',
+        'I can recount the whole story of Final Fantasy 6',
+        'There is video evidence that I sleep with my eyes partly open'
+    ];
+
     $scope.twitterLink = "http://www.twitter.com";
     $scope.githubLink = "http://www.github.com";
     $scope.linkedinlink = "http://www.linkedin.com";
