@@ -1,3 +1,3 @@
-app.controller('aboutController', ['$scope', function($scope) {
+nfcom.controller('aboutController', ['$scope', function($scope) {
     $scope.message = "about here";
 }]);

@@ -1,4 +1,4 @@
-app.controller('menuController', ['$scope', '$location', function($scope, $location) {
+nfcom.controller('menuController', ['$scope', '$location', function($scope, $location) {
 	$scope.menuItems = [
 		{ name: 'home' },
 		{ name: 'projects' },

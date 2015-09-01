@@ -1,3 +1,3 @@
-app.controller('projectsController', ['$scope', function($scope) {
+nfcom.controller('projectsController', ['$scope', function($scope) {
     $scope.message = "projects here";
 }]);
