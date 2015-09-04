@@ -1,4 +1,4 @@
-var nfcom = angular.module('nfcom', ['ui.router']);
+var nfcom = angular.module('nfcom', ['ui.router', 'projects']);
 
 nfcom.config(function($stateProvider, $urlRouterProvider) {
     $urlRouterProvider.otherwise("/")

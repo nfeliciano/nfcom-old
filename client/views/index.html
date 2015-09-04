@@ -14,16 +14,16 @@
 
 	</head>
 	<body>
-		<!-- <div id="header" ng-controller="menuController">
+		<div id="header" ng-controller="menuCtrl">
 			<ul id="menu">
-				<li ng-repeat="menuItem in menuItems"> -->
-					<!--<a ng-href="#{{menuItem.name}}">-->
-						<!-- <span ng-if="menuItem.name == selected" id="selected">{{menuItem.name}}</span>
-						<span ng-if="menuItem.name != selected" id="not-selected" ng-click="changePage(menuItem.name)">{{menuItem.name}}</span> -->
-					<!--</a>-->
-				<!-- </li>
+				<li ng-repeat="menuItem in menuItems">
+					<!-- <a ui-sref="{menuItem.name}"> -->
+						<span ng-if="menuItem.name == selected" id="selected">{{menuItem.name}}</span>
+						<span ng-if="menuItem.name != selected" id="not-selected">{{menuItem.name}}</span>
+					<!-- </a> -->
+				</li>
 			</ul>
-		</div> -->
+		</div>
 
 		<div id="content">
 			<div ui-view></div>
@@ -34,5 +34,6 @@
 		<script src="/js/controllers/homeController.js"></script>
 		<script src="/js/controllers/projectsController.js"></script>
 		<script src="/js/controllers/aboutController.js"></script>
+		<script src="/js/services/projectService.js"></script>
 	</body>
 </html>
