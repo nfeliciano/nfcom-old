@@ -1,0 +1,19 @@
+What: JPLC, game for iPad
+When: 2011
+Tasks: Making the whole game
+Links:
+Tasks: Coding the game logic, designing the levels in collaboration with a team of 3, programming the levels designed by the team
+Learned: Cocos2d, creating game logic, intro to iOS programming,
+
+What: LFI, iPad app targeted towards children with autism, for practicing emotion and identiy recognition
+When: 2012-2015 (rebooted several times)
+Tasks: 
+
+
+
+Carte - FreeBird, Carte Website
+Linksupp / Mangiamo
+Insatiable Genius - PencilFX, Comic Tycoon
+Agilefant Mobile
+Course Projects - Infoviz, Python stuff, Cutting Room, Flash game
+Hackathons - Thinklandia, AbeMusic
