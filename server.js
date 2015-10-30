@@ -13,6 +13,7 @@ app.use('/js', express.static(__dirname + '/client/js'));
 app.use('/views', express.static(__dirname + '/client/views'));
 app.use('/css', express.static(__dirname + '/client/css'));
 app.use('/node_modules', express.static(__dirname + '/node_modules'));
+app.use('/foundation', express.static(__dirname + '/foundation'));
 
 var port = process.env.port || 9000;
 app.listen(port, function() {
