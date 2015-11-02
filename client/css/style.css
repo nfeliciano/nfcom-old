@@ -16,10 +16,56 @@ body {
 	min-height: 100%;
 }
 
+@font-face {
+    font-family: Quicksand;
+    src: url(fonts/Quicksand-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: QuicksandBold;
+    src: url(fonts/Quicksand-Bold.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: QuicksandItalic;
+    src: url(fonts/Quicksand-Italic.ttf);
+}
+
+@font-face {
+    font-family: QuicksandLight;
+    src: url(fonts/Quicksand-Light.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: EBGaramond;
+    src: url(fonts/EBGaramond-Regular.ttf);
+}
+
+@font-face {
+    font-family: EBGaramondBold;
+    src: url(fonts/EBGaramond-Bold.ttf);
+}
+
 #wrapper {
     display: table;
     width: 100%;
     height: 100%;
+}
+
+#menu {
+
+    margin-left: 45%;
+}
+
+#nf-logo {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 0.5em;
 }
 
 #content {
@@ -37,30 +83,14 @@ body {
     position: relative;
 }
 
+#home-page h1 {
+    font-family: 'EBGaramondBold', Helvetica, Arial, sans-serif;
+}
+
 /*no longer needed*/
 #header {
 	background-color: #C0C0C0;
 	color: #fff;
 	width: 100%;
 	margin-top: 0px;
-}
-/*no longer needed*/
-#menu {
-	text-align: center;
-	font-size: 1.2em;
-}
-/*no longer needed*/
-#menu li {
-	display: inline;
-	white-space: nowrap;
-	margin-left: 3em;
-
-}
-/*no longer needed*/
-#menu li:after {
-	content: none;
-}
-/*no longer needed*/
-#menu li #selected {
-	font-size:1.4em;
 }
