@@ -15,6 +15,7 @@ app.use('/css', express.static(__dirname + '/client/css'));
 app.use('/img', express.static(__dirname + '/client/img'));
 app.use('/node_modules', express.static(__dirname + '/node_modules'));
 app.use('/foundation', express.static(__dirname + '/foundation'));
+app.use('/font-awesome', express.static(__dirname + '/font-awesome'));
 
 var port = process.env.port || 9000;
 app.listen(port, function() {

@@ -1,5 +1,5 @@
 nfcom.controller('homeCtrl', ['$scope', function($scope)  {
-    $scope.title = "Noel F.";
+    $scope.title = "Noel Feliciano";
     $scope.jobTitle = "Software Developer";
 
     $scope.message = "Welcome! Here, you'll find everything to know about me, from the iOS and Web Apps I work on to the things I'm enjoying learning about to even my hobbies and interests."
