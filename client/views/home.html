@@ -5,6 +5,9 @@
             <h1>
                 {{ title }}
             </h1>
+            <h2>
+                {{ jobTitle }}
+            </h2>
         </div>
         <div class="columns large-2 small-1">&nbsp;</div>
     </div>
@@ -15,22 +18,40 @@
         </div>
         <div class="columns large-4 small-3">&nbsp;</div>
     </div>
-    <div class="row">
-        <div class="columns large-2 small-1">&nbsp;</div>
-        <div class="columns large-8 small-10">
-            <h2>
-                {{ jobTitle }}
-            </h2>
+    <div class="row" id="intro">
+        <div class="columns large-12 small-12">
+            <p>
+                {{ intro }}
+            </p>
         </div>
-        <div class="columns large-2 small-1">&nbsp;</div>
     </div>
-
-
-    <p>
-        {{ message }}
-    </p>
-
-    <p>
-        {{ messageTwo }}
-    </p>
+    <div class="row">
+        <div id="home-site-description">
+            <div class="columns large-4 small-12">
+                <h3>Blog</h3>
+                <img src="/img/temps/blog.png" class="home-site-icon" />
+                <p>For my stream of thoughts! Links to stuff, my take on events or dev-related stuff, reviews; anything goes, really.</p>
+            </div>
+            <div class="columns large-4 small-12">
+                <h3>Collection</h3>
+                <img src="/img/temps/collection.png" class="home-site-icon" />
+                <p>Call it a portfolio, but here, I'll aggregate everything I've worked on (or at least, the things I remember working on).</p>
+            </div>
+            <div class="columns large-4 small-12">
+                <h3>Playground</h3>
+                <img src="/img/temps/playground.png" class="home-site-icon" />
+                <p>I have my own space! May as well play around in it. I'll be experimenting with web technologies that seem cool, and will likely blog about those experiences.</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div id="home-about">
+            <div class="columns large-1">&nbsp;</div>
+            <div class="columns large-10 small-12">
+                <h3>About Me</h3>
+                <p>Primarily, I'm a mobile and web (full-stack) developer. I like working with and talking tech and games, particularly in educational and QoL areas. With regards to development, I find the most joy in picking new things up and solving problems with others. I hope to work in educational technology, mobile or web application development, games, or an intersection of the three. I live in beautiful Victoria, BC, graduating with an MSc in Computer Science from UVic, and while I'm no longer a student, I will always be a learner.</p>
+            </div>
+            <div class="columns large-1">&nbsp;</div>
+        </div>
+    </div>
 </div>
