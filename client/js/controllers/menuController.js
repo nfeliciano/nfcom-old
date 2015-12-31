@@ -1,8 +1,7 @@
 nfcom.controller('menuCtrl', ['$scope', '$location', function($scope, $location) {
 	$scope.menuItems = [
-		{ name: 'projects' },
 		{ name: 'home' },
-		{ name: 'blog' }
+		{ name: 'projects' }
 	];
 
 	$scope.selected = $location.path().slice(1);
