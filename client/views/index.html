@@ -9,6 +9,7 @@
 
 		<link rel="stylesheet" type="text/css" href="/css/style.css">
 		<link rel="stylesheet" type="text/css" href="/css/home-page.css">
+		<link rel="stylesheet" type="text/css" href="/css/projects-page.css">
 		<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
 		<link rel='stylesheet' type="text/css" href="foundation/css/foundation.min.css" />
 
@@ -18,24 +19,20 @@
 		<div id="wrapper">
 			<div id="content">
 				<div class="row">
-					<div class="columns large-4 small-6">
+					<div class="columns large-2">
+						&nbsp;
+					</div>
+					<div class="columns large-8 small-12">
 						<div id="menu">
-							Home
-							<span id="menu-other">
-							<img src="/img/nf-logo.png" id="nf-logo" />
- 							>
-							<span id="menu-next">
-								Projects | Blog
-							</span>
-							</span>
+							<ul>
+								<li ng-repeat="menuItem in menuItems">
+									<span ng-if="menuItem.name == selected" class="selected">{{menuItem.name}}</span>
+									<span ng-if="menuItem.name != selected" class="not-selected" ng-click="changePage(menuItem.name)"><a ng-href="#{{menuItem.name}}">{{menuItem.name}}</a></span>
+								</li>
+							</ul>
 						</div>
 					</div>
-					<div class="columns large-4 small-3">
-						&nbsp;
-					</div>
-					<div class="columns large-4 small-3">
-						&nbsp;
-					</div>
+					<div class="columns large-2">&nbsp;</div>
 				</div>
 				<div class="row">
 					<div class="columns large-12 small-12">

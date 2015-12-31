@@ -7,7 +7,7 @@ Learned: Cocos2d, creating game logic, intro to iOS programming,
 
 What: LFI, iPad app targeted towards children with autism, for practicing emotion and identiy recognition
 When: 2012-2015 (rebooted several times)
-Tasks: 
+Tasks:
 
 
 
@@ -17,3 +17,4 @@ Insatiable Genius - PencilFX, Comic Tycoon
 Agilefant Mobile
 Course Projects - Infoviz, Python stuff, Cutting Room, Flash game
 Hackathons - Thinklandia, AbeMusic
+Papers: G4E, RBCM, Thesis   

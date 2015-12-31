@@ -1,0 +1,38 @@
+#projects-page {
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    /*text-align: center;*/
+    width: 100%;
+    height: 36em;
+    overflow: scroll;
+    position: relative;
+}
+
+#projects-page::-webkit-scrollbar {
+  display: none;
+}
+
+#project-details {
+    height: 24em;
+}
+
+#projects-list ul {
+    margin-top: 0.5em;
+    list-style: none;
+}
+
+#projects-list ul li {
+    font-size: 26px;
+    display: inline;
+    white-space: nowrap;
+    margin-right: 2em;
+}
+
+#projects-list ul li:last-child {
+    margin-right: 0em;
+}
+
+#projects-list ul li img {
+    max-width: 160px;
+    max-height: 160px;
+}
